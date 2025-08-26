@@ -1,0 +1,95 @@
+body{ background: linear-gradient(#141e30,#2b4564);
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    }
+
+li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 25px;
+    font-size: 24px;
+    color: white;
+    
+}
+li a:hover {
+    transform: scale(1.05,1.05);
+    box-shadow: 0 4px 4px;
+    background-color: rgb(45, 45, 45);
+}
+ul{
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(83, 6, 150, 0.315);
+    background-image:url('images/stars-night-sky-dark-background_1108670-8291.avif');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    border-radius: 5px;
+}
+
+li{
+    display: inline-block;
+    margin: 0px 3px;
+}
+p{
+    font-size: 22px;
+    border: solid;
+    border-radius: 15px;
+    background-color: rgba(4, 12, 55, 0.544);
+    margin: 0px 25px;
+    padding: 16px;
+    color: aliceblue;
+    border-color: rgb(5, 12, 55);
+}
+h1{
+    color: rgb(0, 128, 182);
+    margin-left: 5px;
+}
+p a{
+    text-decoration: none;
+    color: rgb(9, 175, 221);
+
+}
+#a a:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0 4px 4px rgb(255, 255, 255);
+    background-color: rgb(63, 220, 220);
+    color: rgb(0, 0, 0);
+}
+*{
+scroll-behavior:smooth;}
+div a{ 
+    display: inline-block;
+    text-decoration: none;
+    border: solid;
+    background-color: rgb(4, 202, 252);
+    font-size: 40px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    color: black;
+    line-height: 50px; /* متن وسط دایره */
+    text-align: center;
+
+}
+div{
+    text-align: end;
+    margin: 5px;
+}
+p a img{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin:0px 30px;
+}
+#img{
+    text-align: center;
+}
+#img a img:hover{
+    transform: scale(1.1,1.1);
+
+}
